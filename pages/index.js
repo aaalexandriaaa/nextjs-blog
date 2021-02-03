@@ -21,10 +21,9 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hi, I'm Alexandria - <br />a process-oriented, problem solving software developer
-who considers efficiency in every part of life.<br /><br />With an eye for finding both failure points and elegant solutions, I bring a shrewd understanding of systems to my work. Leveraging my background in non-profit, customer-first fields, I lead with open-ended questions and a collaborative mindset in order to help organizations build user-friendly solutions to advance their mission. </p>
-        <p>
-          (This is a sample website build with{' '}
+        <p>Hi, I'm Alexandria - <br />a process-oriented, problem solving <br />software developer
+who considers efficiency in every part of life. </p> <p>See my portfolio at{' '}<a href="http://aaalexandriaaa.dev">aaalexandriaaa.dev</a></p><p>
+          (This is a sample website built with{' '}
           <a href="https://nextjs.org/learn">the official Next.js tutorial</a>.)
         </p>
       </section>
